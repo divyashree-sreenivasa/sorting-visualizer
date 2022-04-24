@@ -1,0 +1,120 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    min-height: 100vh;
+    background-color: #caf0f8;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+.right {
+    margin: 20px 0;
+}
+
+.controls div {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls label {
+    margin-right: 5px;
+}
+
+h1 {
+    font-weight: 500;
+    color: #03045e;
+    margin: 20px 0px;
+}
+
+button:disabled {
+    cursor:not-allowed;
+}
+
+.sort-btn {
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+
+.sort-btn:hover {
+    background-color: #90e0ef;
+    color: #03045e;
+}
+
+.new-array-btn {
+    border: none;
+    background-color: #74c69d;
+    color: #03045e;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    width: 100%;
+    font-size: 18px;
+}
+
+.new-array-btn:hover {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-bar {
+    background-color: #03045e;
+    margin: 0 1px;
+    transition: 1s all ease;
+}
+
+#bars {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20vh;
+    transition: 2s all ease;
+}
+
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item {
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
